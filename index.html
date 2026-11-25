@@ -1,29 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./public/css/output.css">
-</head>
-<header class="flex justify-between px-8 items-center ">
+    <link rel="stylesheet" href="./public/css/output.css" />
+  </head>
+  <header class="flex justify-between px-8 items-center">
     <div>
-        <img class="w-[15rem]" src="./public/images/hopevox_logo_transparent.png" alt="">
+      <img
+        class="w-[15rem]"
+        src="./public/images/hopevox_logo_transparent.png"
+        alt=""
+      />
     </div>
     <nav class="flex items-center gap-15">
-        <a class="text-black/80 font-medium hover:text-[#fc6400] hover:border-b-2  " href="./index.html">Home</a>
-        <a class="text-black/80 font-medium hover:text-[#fc6400] hover:border-b-2 " href="./public/pages/take-help.html">Take Help</a>
-        <a class="text-black/80 font-medium hover:text-[#fc6400] hover:border-b-2 " href="./public/pages/contact.html">Contact</a>
+      <a
+        class="text-[#fc6400] font-medium hover:text-[#fc6400] hover:border-b-2"
+        href="./index.html"
+        >Home</a
+      >
+      <a
+        class="text-black/80 font-medium hover:text-[#fc6400] hover:border-b-2"
+        href="./public/pages/take-help.html"
+        >Take Help</a
+      >
+      <a
+        class="text-black/80 font-medium hover:text-[#fc6400] hover:border-b-2"
+        href="./public/pages/contact.html"
+        >Contact</a
+      >
     </nav>
-    <div class="flex gap-8 ">
-    <button class="flex items-center  gap-4 border-2 border-gray-400 w-fit h-fit rounded-4xl bg-orange-200/20 px-4 py-2  font-medium ">
+    <div class="flex gap-8">
+      <button
+        class="flex items-center gap-4 border-2 border-gray-400 w-fit h-fit rounded-4xl bg-orange-200/20 px-4 py-2 font-medium"
+      >
         <span class="w-2 h-2 bg-[#fc6400] rounded-[50%]"></span>
-        <p> YOU ARE NOT ALONE</p>
-    </button>
-    <button class="flex items-center  gap-4 border-2  hover:bg-purple-500 border-gray-400 w-fit text-white h-fit rounded-4xl bg-[#fc6400] px-4 py-2  font-medium"><p>Get support</p></button>
-</div>
-</header>
-<body>
-    
-</body>
+        <p>YOU ARE NOT ALONE</p>
+      </button>
+      <button
+        class="flex items-center gap-4 border-2 hover:bg-amber-400 border-gray-400 w-fit text-white h-fit rounded-4xl bg-[#fc6400] px-4 py-2 font-medium"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          class="bi bi-headset"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"
+          />
+        </svg>
+        <p>Get support</p>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="bg-[#fff9f3] shadow-2xl flex items-center justify-center gap-15 px-10">
+      <div class="w-[40%] flex flex-col gap-10 p-15">
+        <button
+          class="flex items-center gap-4 border-2 border-[#fc6400] w-fit h-fit rounded-4xl bg-white px-4 py-2 font-medium"
+        >
+          <span class="w-2 h-2 bg-[#fc6400] rounded-[50%]"></span>
+          <p>25 November . Orange the World Campaign</p>
+        </button>
+        <h1 class="text-6xl text-black font-bold">
+          Online Violence &
+          <span class="text-6xl text-[#fc6400] font-bold"
+            >Cyber Harassment</span
+          >
+        </h1>
+        <p class="font-medium">
+          Behind every screen, there is a real person. Online violence is real
+          violence. Every woman and girl deserves to feel safe, respected, and
+          heard - online and offline.
+        </p>
+        <p class="bg-white border-white border-6 border-l-amber-500 p-8 font-medium">
+          Every 25 November, the world unites in orange to demand an end to
+          gender- based violence - standing with every woman silenced,
+          threatened, or harassed across digital spaces.
+        </p>
+        <div class="flex gap-8">
+          <button
+            class="flex items-center gap-4 border-2 hover:bg-amber-400 border-gray-400 w-fit text-white h-fit rounded-4xl bg-[#fc6400] px-4 py-2 font-medium"
+          >
+            Understand the Issue
+          </button>
+          <button
+            class="flex items-center gap-4 border-2 hover:bg-gray-500 w-fit text-white h-fit rounded-4xl bg-black px-4 py-2 font-medium"
+          >
+            Find Support
+          </button>
+        </div>
+      </div >
+      <div class="relative group w-[50%] h-[80%] ">
+      <img class=" rounded-3xl absolute object-cover transition-opacity duration-500 opacity-100 group-hover:opacity-0" src="./public/images/hero section.png" alt="">
+      <img class="rounded-3xl  object-cover transition-opacity duration-500 opacity-100 group-hover:opacity-100 " src="./public/images/hero section hover.png" alt=""></div>
+    </section>
+  </main>
+  <body></body>
 </html>
