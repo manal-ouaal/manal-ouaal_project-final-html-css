@@ -111,4 +111,12 @@ hr{
     color: #ffffff83;
     
 }
-
+@media (max-width: 576px){
+.h-footer{
+width: 100%;
+justify-content: start;
+align-items: start;
+gap: 2rem;
+padding: 4rem 0;
+   } 
+}
